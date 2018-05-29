@@ -10,6 +10,9 @@ Lightweight C shared library for tracing to console.
 * Colorful! Specify and use different colors for different situations (errors, warnings, etc.)
 * Uses macros to make initialization easier.
 * Build documentation with Doxygen.
+* Silence process output with `--silent` flag.
+* Remove all color output with `--no-color` flag.
+* And more (check out the docs)!
 
 
 
