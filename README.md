@@ -32,6 +32,16 @@ int main(int argc, char *argv[])
 }
 ```
 
+If this file is called 'test.c' and lies in the repo root, next to 'libdisplay.so', it can be compiled like so:
+
+```shell
+gcc test.c -o test -I./src -L. -Wl,-rpath=. -ldisplay
+```
+
+Then, running `./test` results in the following terminal output:
+
+![Example terminal output](example-output.png "Example terminal output")
+
 
 Check out the full feature demo file in the demo/ directory. Build it from the command line with `make`.
 
