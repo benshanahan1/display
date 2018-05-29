@@ -1,7 +1,7 @@
-CC 			= gcc
+CC 		= gcc
 CFLAGS 		= -Wall -Werror -fpic
 LDFLAGS 	= -shared
-RM 			= rm -f
+RM 		= rm -f
 TARGET_LIB 	= libdisplay.so
 
 SRCS = src/Display.c
