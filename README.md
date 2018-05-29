@@ -6,7 +6,7 @@ Lightweight C shared library for tracing to console.
 
 ## Features
 
-* Simple trace (it's trivial to see from which process/function the Display print was called, as well as what time it was called)
+* Simple backtrace (Display prints out the time, the file, and the function from which it was called)
 * Colorful! Specify and use different colors for different situations (errors, warnings, etc.)
 * Uses macros to make initialization easier.
 * Build documentation with Doxygen.
