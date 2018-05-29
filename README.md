@@ -16,21 +16,20 @@ Lightweight C shared library for tracing to console.
 
 
 
-## Example process using Display
+## Minimal example process using Display
 
 ```C
 #include "Display.h"
 
 int main(int argc, char *argv[])
 {
-    InitializeDisplay(argc, argv);
+    InitializeDisplay(argc, argv);  // call this before any other calls to Display
 
     Display("Hello, %s!", "World");
     DisplayError("This is an error message.");
     DisplayColor(MAGENTA, "I am %d years old.", 22);
 
-    CloseDisplay();
-
+    CloseDisplay();  // clean up
     return 0;
 }
 ```
