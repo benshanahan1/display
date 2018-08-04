@@ -1,6 +1,6 @@
 # Display
 
-Lightweight C shared library for tracing to console.
+Lightweight C shared library for tracing to the console.
 
 
 
